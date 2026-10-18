@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Jobs | JobBridge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="index.html" class="logo">Job<span>Bridge</span></a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="jobs.html" class="active">Find Jobs</a>
+            <a href="internships.html">Internships</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+        <div class="nav-buttons">
+            <a href="#" class="login-btn">Login</a>
+            <a href="#" class="register-btn">Register</a>
+        </div>
+    </header>
+
+    <!-- Page Heading -->
+    <section class="jobs-hero">
+        <span>CAREER OPPORTUNITIES</span>
+        <h1>Find Your Perfect Job</h1>
+        <p>Explore opportunities and take the next step in your career.</p>
+
+        <form class="jobs-search" action="jobs.html" method="get">
+            <input type="text" name="title" placeholder="Job title or skill">
+            <input type="text" name="location" placeholder="City or Remote">
+            <button type="submit">Search Jobs</button>
+        </form>
+    </section>
+
+    <!-- Jobs Listing -->
+    <main class="jobs-layout">
+
+        <!-- Filter Sidebar -->
+        <aside class="filter-sidebar">
+            <h2>Filters</h2>
+
+            <div class="filter-group">
+                <h3>Job Type</h3>
+                <label><input type="checkbox"> Full-time</label>
+                <label><input type="checkbox"> Part-time</label>
+                <label><input type="checkbox"> Internship</label>
+                <label><input type="checkbox"> Contract</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Experience Level</h3>
+                <label><input type="checkbox"> Fresher</label>
+                <label><input type="checkbox"> Entry Level</label>
+                <label><input type="checkbox"> Experienced</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Work Mode</h3>
+                <label><input type="checkbox"> Remote</label>
+                <label><input type="checkbox"> On-site</label>
+                <label><input type="checkbox"> Hybrid</label>
+            </div>
+        </aside>
+
+        <!-- Job Cards -->
+        <section class="jobs-results">
+
+            <div class="jobs-results-heading">
+                <div>
+                    <h2>Latest Job Opportunities</h2>
+                    <p>Explore jobs that match your career goals.</p>
+                </div>
+                <span class="results-badge">6 Sample Jobs</span>
+            </div>
+
+            <div class="jobs-list">
+
+                <article class="listing-card">
+                    <div class="listing-top">
+                        <div class="company-icon">T</div>
+                        <span class="job-badge">Full-time</span>
+                    </div>
+                    <h3>Frontend Developer</h3>
+                    <p class="company-name">Tech Solutions</p>
+                    <p class="job-location">📍 Patna, Bihar</p>
+                    <p class="listing-description">
+                        Work on responsive websites using HTML, CSS and React.
+                    </p>
+                    <div class="job-info">
+                        <span>Fresher</span>
+                        <span>On-site</span>
+                    </div>
+                    <div class="listing-bottom">
+                        <strong>₹3–5 LPA</strong>
+                        <a href="job-details.html" class="details-btn">View Details →</a>
+                    </div>
+                    <p class="posted-date">Posted recently · Sample listing</p>
+                </article>
+
+                <article class="listing-card">
+                    <div class="listing-top">
+                        <div class="company-icon purple">D</div>
+                        <span class="job-badge remote">Remote</span>
+                    </div>
+                    <h3>Python Developer</h3>
+                    <p class="company-name">Digital Works</p>
+                    <p class="job-location">📍 Remote, India</p>
+                    <p class="listing-description">
+                        Develop and maintain applications using Python.
+                    </p>
+                    <div class="job-info">
+                        <span>Fresher</span>
+                        <span>Full-time</span>
+                    </div>
+                    <div class="listing-bottom">
+                        <strong>₹4–6 LPA</strong>
+                        <a href="job-details.html" class="details-btn">View Details →</a>
+                    </div>
+                    <p class="posted-date">Posted recently · Sample listing</p>
+                </article>
+
+                <article class="listing-card">
+                    <div class="listing-top">
+                        <div class="company-icon orange">W</div>
+                        <span class="job-badge internship-badge">Internship</span>
+                    </div>
+                    <h3>Web Developer Intern</h3>
+                    <p class="company-name">WebCraft Studio</p>
+                    <p class="job-location">📍 Hybrid, India</p>
+                    <p class="listing-description">
+                        Learn web development while working on practice projects.
+                    </p>
+                    <div class="job-info">
+                        <span>Beginner</span>
+                        <span>Hybrid</span>
+                    </div>
+                    <div class="listing-bottom">
+                        <strong>₹8k–15k/mo</strong>
+                        <a href="job-details.html" class="details-btn">View Details →</a>
+                    </div>
+                    <p class="posted-date">Posted recently · Sample listing</p>
+                </article>
+
+                <article class="listing-card">
+                    <div class="listing-top">
+                        <div class="company-icon green">N</div>
+                        <span class="job-badge">Full-time</span>
+                    </div>
+                    <h3>Node.js Developer</h3>
+                    <p class="company-name">NextGen Technologies</p>
+                    <p class="job-location">📍 Remote, India</p>
+                    <p class="listing-description">
+                        Build backend services and REST APIs using Node.js.
+                    </p>
+                    <div class="job-info">
+                        <span>Entry Level</span>
+                        <span>Remote</span>
+                    </div>
+                    <div class="listing-bottom">
+                        <strong>₹4–7 LPA</strong>
+                        <a href="job-details.html" class="details-btn">View Details →</a>
+                    </div>
+                    <p class="posted-date">Posted recently · Sample listing</p>
+                </article>
+
+                <article class="listing-card">
+                    <div class="listing-top">
+                        <div class="company-icon pink">U</div>
+                        <span class="job-badge">Full-time</span>
+                    </div>
+                    <h3>UI Designer</h3>
+                    <p class="company-name">Unique Digital</p>
+                    <p class="job-location">📍 Patna, Bihar</p>
+                    <p class="listing-description">
+                        Design clear and user-friendly website interfaces.
+                    </p>
+                    <div class="job-info">
+                        <span>Entry Level</span>
+                        <span>On-site</span>
+                    </div>
+                    <div class="listing-bottom">
+                        <strong>₹3–4 LPA</strong>
+                        <a href="job-details.html" class="details-btn">View Details →</a>
+                    </div>
+                    <p class="posted-date">Posted recently · Sample listing</p>
+                </article>
+
+                <article class="listing-card">
+                    <div class="listing-top">
+                        <div class="company-icon teal">M</div>
+                        <span class="job-badge">Full-time</span>
+                    </div>
+                    <h3>Junior Software Developer</h3>
+                    <p class="company-name">Modern Systems</p>
+                    <p class="job-location">📍 Hybrid, India</p>
+                    <p class="listing-description">
+                        Collaborate with a team to develop software applications.
+                    </p>
+                    <div class="job-info">
+                        <span>Fresher</span>
+                        <span>Hybrid</span>
+                    </div>
+                    <div class="listing-bottom">
+                        <strong>₹3–5 LPA</strong>
+                        <a href="job-details.html" class="details-btn">View Details →</a>
+                    </div>
+                    <p class="posted-date">Posted recently · Sample listing</p>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">Job<span>Bridge</span></a>
+        <p>Connecting talent with opportunity.</p>
+        <p class="copyright">© 2026 JobBridge. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
